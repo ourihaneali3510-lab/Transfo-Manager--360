@@ -27,3 +27,4 @@ jobs:
           cd "$(dirname "$(find project -name gradlew -type f | head -n 1)")"
           chmod +x gradlew
           ./gradlew assembleDebug
+   
